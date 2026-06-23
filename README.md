@@ -27,12 +27,12 @@ PREVISAO-DE-POPULARIDADE-SPOTIFY/
 ├── dataset/
 │   ├── spotify-tracks-dataset.csv          # Dataset original (bruto)
 │   └── dados-processados/
+│       ├── modelo_projeto.pkl              # Modelo final treinado
+│       ├── preprocessor_sprint2.pkl        # Pipeline de pre-processamento
 │       ├── X_train_sprint2.csv             # Features de treino (processadas)
 │       ├── X_test_sprint2.csv              # Features de teste (processadas)
 │       ├── y_train_sprint2.csv             # Target de treino
-│       ├── y_test_sprint2.csv              # Target de teste
-│       ├── preprocessor_sprint2.pkl        # Pipeline de pre-processamento
-│       └── modelo_projeto.pkl              # Modelo final treinado
+│       └── y_test_sprint2.csv              # Target de teste
 ├── Sprint1_EDA.ipynb                       # Sprint 1: Analise Exploratoria
 ├── Sprint2.ipynb                           # Sprint 2: Pre-processamento
 ├── Sprint3.ipynb                           # Sprint 3: Modelagem
